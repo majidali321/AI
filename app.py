@@ -79,7 +79,7 @@ def explain_result(test, value, normal_range):
     except Exception as e:
         return f"Unexpected error: {e}"
 
-openai.api_key = st.secrets['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']
+openai.api_key = st.secrets["openai_api_key"]
 
 
 
